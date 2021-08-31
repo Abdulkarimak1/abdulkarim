@@ -1,0 +1,14 @@
+n=int(input("enter the range of numbers"))
+a = 0
+b = 1
+if n == 1:
+    print(a)
+else:
+    print(a)
+    print(b)
+    
+    for num in range(2,n):
+        c = a + b
+        a = b
+        b = c
+        print(c)
